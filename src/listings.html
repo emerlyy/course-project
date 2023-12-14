@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Listings</title>
+		<link rel="shortcut icon" href="/public/fav2.png" type="image/x-icon" />
+		<link rel="stylesheet" href="./reset.css" />
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<nav class="header__navigation">
+					<a href="./index.html" class="logo header__logo">
+						<img
+							class="logo-img"
+							src="./img/shared/logo.png"
+							width="218"
+							height="60"
+						/>
+					</a>
+					<ul class="header__list">
+						<li><a href="./index.html">Home</a></li>
+						<li><a href="./index.html#benefits">About</a></li>
+						<li><a href="./listings.html">Listings</a></li>
+						<li>
+							<a class="button button_small" href="./index.html#contactUs"
+								>Contact us</a
+							>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<form class="filters">
+				<label class="filters__input-body">
+					Search
+					<input
+						class="filters__input"
+						type="text"
+						placeholder="Address, town ..."
+					/>
+				</label>
+				<div class="filters__input-body">
+					<div>Type of property</div>
+					<div class="filters__select">
+						<select name="type-of-property" id="type-of-property">
+							<option value="any" selected>Any</option>
+							<option value="apartment">Apartment</option>
+							<option value="house">House</option>
+						</select>
+					</div>
+				</div>
+				<div class="filters__input-body">
+					<div>Type of research</div>
+					<div class="filters__select">
+						<select name="type-of-research" id="type-of-research">
+							<option value="any" selected>Any</option>
+							<option value="Buy">Buy</option>
+							<option value="Rent">Rent</option>
+						</select>
+					</div>
+				</div>
+				<div class="filters__input-body">
+					<div>Rooms</div>
+					<div class="filters__select">
+						<select name="rooms" id="rooms">
+							<option value="any" selected>Any</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4+">4+</option>
+						</select>
+					</div>
+				</div>
+				<label class="filters__input-body">
+					Max price
+					<input class="filters__input" type="text" />
+				</label>
+				<button class="button">
+					<img src="./icons/search-icon.svg" />Search
+				</button>
+			</form>
+			<div class="container">
+				<div class="listings">
+					<div class="listings__grid">
+						<a class="card" href="./details.html">
+							<img
+								src="./img/properties/property.png"
+								alt="House"
+								class="card-image"
+							/>
+							<div class="card-content">
+								<div class="card-price-wrapper">
+									<span class="card-price">$3,600</span
+									><span class="card-type">Sale</span>
+								</div>
+								<div class="card-title">Premier Tower</div>
+								<div class="card-location">New york</div>
+								<div class="card-features">
+									<div class="card-features-item">
+										<img src="./icons/card/square.svg" />
+										<span>91 Sqrt</span>
+									</div>
+									<div class="card-features-item">
+										<img src="./icons/card/box.svg" />
+										<span>3 Room</span>
+									</div>
+									<div class="card-features-item">
+										<img src="./icons/card/bed.svg" width="20" height="20" />
+										<span>2 Beds</span>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a class="card" href="./details.html">
+							<img
+								src="./img/properties/property.png"
+								alt="House"
+								class="card-image"
+							/>
+							<div class="card-content">
+								<div class="card-price-wrapper">
+									<span class="card-price">$3,600</span
+									><span class="card-type">Sale</span>
+								</div>
+								<div class="card-title">Premier Tower</div>
+								<div class="card-location">New york</div>
+								<div class="card-features">
+									<div class="card-features-item">
+										<img src="./icons/card/square.svg" />
+										<span>91 Sqrt</span>
+									</div>
+									<div class="card-features-item">
+										<img src="./icons/card/box.svg" />
+										<span>3 Room</span>
+									</div>
+									<div class="card-features-item">
+										<img src="./icons/card/bed.svg" width="20" height="20" />
+										<span>2 Beds</span>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a class="card" href="./details.html">
+							<img
+								src="./img/properties/property.png"
+								alt="House"
+								class="card-image"
+							/>
+							<div class="card-content">
+								<div class="card-price-wrapper">
+									<span class="card-price">$3,600</span
+									><span class="card-type">Sale</span>
+								</div>
+								<div class="card-title">Premier Tower</div>
+								<div class="card-location">New york</div>
+								<div class="card-features">
+									<div class="card-features-item">
+										<img src="./icons/card/square.svg" />
+										<span>91 Sqrt</span>
+									</div>
+									<div class="card-features-item">
+										<img src="./icons/card/box.svg" />
+										<span>3 Room</span>
+									</div>
+									<div class="card-features-item">
+										<img src="./icons/card/bed.svg" width="20" height="20" />
+										<span>2 Beds</span>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a class="card" href="./details.html">
+							<img
+								src="./img/properties/property.png"
+								alt="House"
+								class="card-image"
+							/>
+							<div class="card-content">
+								<div class="card-price-wrapper">
+									<span class="card-price">$3,600</span
+									><span class="card-type">Sale</span>
+								</div>
+								<div class="card-title">Premier Tower</div>
+								<div class="card-location">New york</div>
+								<div class="card-features">
+									<div class="card-features-item">
+										<img src="./icons/card/square.svg" />
+										<span>91 Sqrt</span>
+									</div>
+									<div class="card-features-item">
+										<img src="./icons/card/box.svg" />
+										<span>3 Room</span>
+									</div>
+									<div class="card-features-item">
+										<img src="./icons/card/bed.svg" width="20" height="20" />
+										<span>2 Beds</span>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a class="card" href="./details.html">
+							<img
+								src="./img/properties/property.png"
+								alt="House"
+								class="card-image"
+							/>
+							<div class="card-content">
+								<div class="card-price-wrapper">
+									<span class="card-price">$3,600</span
+									><span class="card-type">Sale</span>
+								</div>
+								<div class="card-title">Premier Tower</div>
+								<div class="card-location">New york</div>
+								<div class="card-features">
+									<div class="card-features-item">
+										<img src="./icons/card/square.svg" />
+										<span>91 Sqrt</span>
+									</div>
+									<div class="card-features-item">
+										<img src="./icons/card/box.svg" />
+										<span>3 Room</span>
+									</div>
+									<div class="card-features-item">
+										<img src="./icons/card/bed.svg" width="20" height="20" />
+										<span>2 Beds</span>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a class="card" href="./details.html">
+							<img
+								src="./img/properties/property.png"
+								alt="House"
+								class="card-image"
+							/>
+							<div class="card-content">
+								<div class="card-price-wrapper">
+									<span class="card-price">$3,600</span
+									><span class="card-type">Sale</span>
+								</div>
+								<div class="card-title">Premier Tower</div>
+								<div class="card-location">New york</div>
+								<div class="card-features">
+									<div class="card-features-item">
+										<img src="./icons/card/square.svg" />
+										<span>91 Sqrt</span>
+									</div>
+									<div class="card-features-item">
+										<img src="./icons/card/box.svg" />
+										<span>3 Room</span>
+									</div>
+									<div class="card-features-item">
+										<img src="./icons/card/bed.svg" width="20" height="20" />
+										<span>2 Beds</span>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a class="card" href="./details.html">
+							<img
+								src="./img/properties/property.png"
+								alt="House"
+								class="card-image"
+							/>
+							<div class="card-content">
+								<div class="card-price-wrapper">
+									<span class="card-price">$3,600</span
+									><span class="card-type">Sale</span>
+								</div>
+								<div class="card-title">Premier Tower</div>
+								<div class="card-location">New york</div>
+								<div class="card-features">
+									<div class="card-features-item">
+										<img src="./icons/card/square.svg" />
+										<span>91 Sqrt</span>
+									</div>
+									<div class="card-features-item">
+										<img src="./icons/card/box.svg" />
+										<span>3 Room</span>
+									</div>
+									<div class="card-features-item">
+										<img src="./icons/card/bed.svg" width="20" height="20" />
+										<span>2 Beds</span>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a class="card" href="./details.html">
+							<img
+								src="./img/properties/property.png"
+								alt="House"
+								class="card-image"
+							/>
+							<div class="card-content">
+								<div class="card-price-wrapper">
+									<span class="card-price">$3,600</span
+									><span class="card-type">Sale</span>
+								</div>
+								<div class="card-title">Premier Tower</div>
+								<div class="card-location">New york</div>
+								<div class="card-features">
+									<div class="card-features-item">
+										<img src="./icons/card/square.svg" />
+										<span>91 Sqrt</span>
+									</div>
+									<div class="card-features-item">
+										<img src="./icons/card/box.svg" />
+										<span>3 Room</span>
+									</div>
+									<div class="card-features-item">
+										<img src="./icons/card/bed.svg" width="20" height="20" />
+										<span>2 Beds</span>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a class="card" href="./details.html">
+							<img
+								src="./img/properties/property.png"
+								alt="House"
+								class="card-image"
+							/>
+							<div class="card-content">
+								<div class="card-price-wrapper">
+									<span class="card-price">$3,600</span
+									><span class="card-type">Sale</span>
+								</div>
+								<div class="card-title">Premier Tower</div>
+								<div class="card-location">New york</div>
+								<div class="card-features">
+									<div class="card-features-item">
+										<img src="./icons/card/square.svg" />
+										<span>91 Sqrt</span>
+									</div>
+									<div class="card-features-item">
+										<img src="./icons/card/box.svg" />
+										<span>3 Room</span>
+									</div>
+									<div class="card-features-item">
+										<img src="./icons/card/bed.svg" width="20" height="20" />
+										<span>2 Beds</span>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a class="card" href="./details.html">
+							<img
+								src="./img/properties/property.png"
+								alt="House"
+								class="card-image"
+							/>
+							<div class="card-content">
+								<div class="card-price-wrapper">
+									<span class="card-price">$3,600</span
+									><span class="card-type">Sale</span>
+								</div>
+								<div class="card-title">Premier Tower</div>
+								<div class="card-location">New york</div>
+								<div class="card-features">
+									<div class="card-features-item">
+										<img src="./icons/card/square.svg" />
+										<span>91 Sqrt</span>
+									</div>
+									<div class="card-features-item">
+										<img src="./icons/card/box.svg" />
+										<span>3 Room</span>
+									</div>
+									<div class="card-features-item">
+										<img src="./icons/card/bed.svg" width="20" height="20" />
+										<span>2 Beds</span>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a class="card" href="./details.html">
+							<img
+								src="./img/properties/property.png"
+								alt="House"
+								class="card-image"
+							/>
+							<div class="card-content">
+								<div class="card-price-wrapper">
+									<span class="card-price">$3,600</span
+									><span class="card-type">Sale</span>
+								</div>
+								<div class="card-title">Premier Tower</div>
+								<div class="card-location">New york</div>
+								<div class="card-features">
+									<div class="card-features-item">
+										<img src="./icons/card/square.svg" />
+										<span>91 Sqrt</span>
+									</div>
+									<div class="card-features-item">
+										<img src="./icons/card/box.svg" />
+										<span>3 Room</span>
+									</div>
+									<div class="card-features-item">
+										<img src="./icons/card/bed.svg" width="20" height="20" />
+										<span>2 Beds</span>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a class="card" href="./details.html">
+							<img
+								src="./img/properties/property.png"
+								alt="House"
+								class="card-image"
+							/>
+							<div class="card-content">
+								<div class="card-price-wrapper">
+									<span class="card-price">$3,600</span
+									><span class="card-type">Sale</span>
+								</div>
+								<div class="card-title">Premier Tower</div>
+								<div class="card-location">New york</div>
+								<div class="card-features">
+									<div class="card-features-item">
+										<img src="./icons/card/square.svg" />
+										<span>91 Sqrt</span>
+									</div>
+									<div class="card-features-item">
+										<img src="./icons/card/box.svg" />
+										<span>3 Room</span>
+									</div>
+									<div class="card-features-item">
+										<img src="./icons/card/bed.svg" width="20" height="20" />
+										<span>2 Beds</span>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a class="card" href="./details.html">
+							<img
+								src="./img/properties/property.png"
+								alt="House"
+								class="card-image"
+							/>
+							<div class="card-content">
+								<div class="card-price-wrapper">
+									<span class="card-price">$3,600</span
+									><span class="card-type">Sale</span>
+								</div>
+								<div class="card-title">Premier Tower</div>
+								<div class="card-location">New york</div>
+								<div class="card-features">
+									<div class="card-features-item">
+										<img src="./icons/card/square.svg" />
+										<span>91 Sqrt</span>
+									</div>
+									<div class="card-features-item">
+										<img src="./icons/card/box.svg" />
+										<span>3 Room</span>
+									</div>
+									<div class="card-features-item">
+										<img src="./icons/card/bed.svg" width="20" height="20" />
+										<span>2 Beds</span>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a class="card" href="./details.html">
+							<img
+								src="./img/properties/property.png"
+								alt="House"
+								class="card-image"
+							/>
+							<div class="card-content">
+								<div class="card-price-wrapper">
+									<span class="card-price">$3,600</span
+									><span class="card-type">Sale</span>
+								</div>
+								<div class="card-title">Premier Tower</div>
+								<div class="card-location">New york</div>
+								<div class="card-features">
+									<div class="card-features-item">
+										<img src="./icons/card/square.svg" />
+										<span>91 Sqrt</span>
+									</div>
+									<div class="card-features-item">
+										<img src="./icons/card/box.svg" />
+										<span>3 Room</span>
+									</div>
+									<div class="card-features-item">
+										<img src="./icons/card/bed.svg" width="20" height="20" />
+										<span>2 Beds</span>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a class="card" href="./details.html">
+							<img
+								src="./img/properties/property.png"
+								alt="House"
+								class="card-image"
+							/>
+							<div class="card-content">
+								<div class="card-price-wrapper">
+									<span class="card-price">$3,600</span
+									><span class="card-type">Sale</span>
+								</div>
+								<div class="card-title">Premier Tower</div>
+								<div class="card-location">New york</div>
+								<div class="card-features">
+									<div class="card-features-item">
+										<img src="./icons/card/square.svg" />
+										<span>91 Sqrt</span>
+									</div>
+									<div class="card-features-item">
+										<img src="./icons/card/box.svg" />
+										<span>3 Room</span>
+									</div>
+									<div class="card-features-item">
+										<img src="./icons/card/bed.svg" width="20" height="20" />
+										<span>2 Beds</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="listings__pagination">
+						<button class="listings__pagination-button">
+							<img src="./icons/chevron-left.svg" />
+						</button>
+						<button class="listings__pagination-button">1</button>
+						<button class="listings__pagination-button">2</button>
+						<button class="listings__pagination-button">3</button>
+						<button class="listings__pagination-button">4</button>
+						<button class="listings__pagination-button">5</button>
+						<button class="listings__pagination-button">
+							<img src="./icons/chevron-right.svg" />
+						</button>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__wrapper">
+					<div>
+						<div href="#" class="footer__logo">
+							<img src="./img/shared/logo-white.png" width="158" height="36" />
+						</div>
+						<div class="text footer__copyright">
+							© Megalul 2023. All rights reserved.
+						</div>
+					</div>
+					<div class="footer__links">
+						<div class="footer__links-title">Links</div>
+						<ul class="footer__links-list">
+							<li><a href="./index.html#home">Home</a></li>
+							<li><a href="./index.html#benefits">About</a></li>
+							<li><a href="./listings.html">Listings</a></li>
+							<li><a href="#">Garanties</a></li>
+							<li><a href="#">FAQ</a></li>
+						</ul>
+					</div>
+					<div class="footer__contacts">
+						<div class="footer__section-title">Contact us</div>
+						<div class="footer__contacts-phone">+38 044 242 34 72</div>
+						<div>megalul@gmail.com</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
