@@ -121,7 +121,7 @@ select {
 
 .home {
 	padding: 90px 0;
-	height: calc(100vh - 118px);
+	height: calc(100vh - 108px);
 	max-height: 850px;
 }
 
@@ -208,9 +208,6 @@ select {
 
 .offer {
 	padding: 60px 20px;
-}
-
-.offer__wrapper {
 }
 
 .offer__subtitle {
