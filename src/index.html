@@ -1,503 +1,407 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Megalul - Home</title>
-		<link
-			rel="shortcut icon"
-			href="./icons/favicon/favicon.png"
-			type="image/x-icon"
-		/>
-		<link rel="stylesheet" href="./reset.css" />
-		<link rel="stylesheet" href="./style.css" />
-	</head>
-	<body>
-		<header class="header">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Megalul - Home</title>
+	<link rel="shortcut icon" href="./icons/favicon/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<nav class="header__navigation">
+				<a href="./index.html" class="logo header__logo">
+					<img class="logo-img" src="./img/shared/logo.png" width="218" height="60" alt="megalul">
+				</a>
+				<ul class="header__list">
+					<li><a href="./index.html">Home</a></li>
+					<li><a href="./index.html#benefits">About</a></li>
+					<li><a href="./listings.html">Listings</a></li>
+					<li>
+						<a class="button button_small" href="./index.html#contactUs">Contact us</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<section id="home" class="home">
 			<div class="container">
-				<nav class="header__navigation">
-					<a href="./index.html" class="logo header__logo">
-						<img
-							class="logo-img"
-							src="./img/shared/logo.png"
-							width="218"
-							height="60"
-							alt="megalul"
-						/>
+				<div class="home__wrapper">
+					<div class="home__content">
+						<h1 class="title title_fs60 home__title">
+							Your Journey to Homeownership Starts Here
+						</h1>
+						<p class="text home__text">
+							Be first to get the best real estate deals before they hit the
+							mass market! Hot foreclosure dealt with one simple search!
+						</p>
+						<a class="button home__button" href="./listings.html">
+							<img src="./icons/search-icon.svg" alt="search">
+							Start your search here
+						</a>
+					</div>
+					<div class="home__image">
+						<img src="./img/home.png" alt="house">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="discover">
+			<div class="container">
+				<div class="discover__wrapper">
+					<h3 class="title title_fs20 title_light">We can help you</h3>
+					<h2 class="title title_light discover__title">
+						Discover your perfect space
+					</h2>
+					<div class="discover__content">
+						<div class="discover__card">
+							<div class="discover__card-content">
+								<div class="title title_fs22 discover__card-title">
+									Residential
+								</div>
+								<p class="discover__card-description">
+									Houses in quiet neighborhood near the cities.
+								</p>
+							</div>
+							<div class="discover__card-img">
+								<img src="./img/discover/card1.png" alt="house">
+							</div>
+						</div>
+						<div class="discover__card">
+							<div class="discover__card-content">
+								<div class="title title_fs22 discover__card-title">
+									Apartment
+								</div>
+								<p class="discover__card-description">
+									Apartments in the best points of metropolises.
+								</p>
+							</div>
+							<div class="discover__card-img">
+								<img src="./img/discover/card2.png" alt="house">
+							</div>
+						</div>
+						<div class="discover__card">
+							<div class="discover__card-content">
+								<div class="title title_fs22 discover__card-title">
+									Workplace
+								</div>
+								<p class="text">
+									The best offices in the business centers of the largest
+									cities.
+								</p>
+							</div>
+							<div class="discover__card-img">
+								<img src="./img/discover/card3.png" alt="house">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="offer">
+			<div class="offer__wrapper">
+				<h2 class="title">What we offer</h2>
+				<p class="text offer__subtitle">
+					Everything you need when you want to buy or sell
+				</p>
+				<div class="offer__content">
+					<div class="offer__item">
+						<img class="offer_item-icon" src="./icons/offer/buying-icon.svg" alt="buying">
+						<div class="offer_item-text">Buying</div>
+					</div>
+					<div class="offer__item">
+						<img class="offer_item-icon" src="./icons/offer/key.svg" alt="renting">
+						<div class="offer_item-text">Renting</div>
+					</div>
+					<div class="offer__item">
+						<img class="offer_item-icon" src="./icons/offer/dollar.svg" alt="selling">
+						<div class="offer_item-text">Selling</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="properties" class="properties">
+			<div class="container">
+				<h3 class="title title_fs20">Best deals</h3>
+				<h2 class="title properties__title">Popular property deals</h2>
+				<div class="properties__grid">
+					<a class="card" href="./details.html">
+						<img src="./img/properties/2.jfif" alt="House" class="card-image" />
+						<div class="card-content">
+							<div class="card-price-wrapper">
+								<span class="card-price">$3,500/month</span><span class="card-type">Rent</span>
+							</div>
+							<div class="card-title">House Victoria</div>
+							<div class="card-location">Aquitaine</div>
+							<div class="card-features">
+								<div class="card-features-item">
+									<img src="./icons/card/square.svg" />
+									<span>609 m²</span>
+								</div>
+								<div class="card-features-item">
+									<img src="./icons/card/box.svg" />
+									<span>3 Room</span>
+								</div>
+								<div class="card-features-item">
+									<img src="./icons/card/bed.svg" width="20" height="20" />
+									<span>2 Beds</span>
+								</div>
+							</div>
+						</div>
 					</a>
-					<ul class="header__list">
-						<li><a href="./index.html">Home</a></li>
+					<a class="card" href="./details.html">
+						<img src="./img/properties/1.png" alt="House" class="card-image" />
+						<div class="card-content">
+							<div class="card-price-wrapper">
+								<span class="card-price">$165,000</span><span class="card-type">Sale</span>
+							</div>
+							<div class="card-title">Premier Tower</div>
+							<div class="card-location">New york</div>
+							<div class="card-features">
+								<div class="card-features-item">
+									<img src="./icons/card/square.svg" />
+									<span>91 m²</span>
+								</div>
+								<div class="card-features-item">
+									<img src="./icons/card/box.svg" />
+									<span>3 Room</span>
+								</div>
+								<div class="card-features-item">
+									<img src="./icons/card/bed.svg" width="20" height="20" />
+									<span>1 Bed</span>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a class="card" href="./details.html">
+						<img src="./img/properties/3.jpg" alt="House" class="card-image" />
+						<div class="card-content">
+							<div class="card-price-wrapper">
+								<span class="card-price">$400,000</span><span class="card-type">Sale</span>
+							</div>
+							<div class="card-title">Redange House</div>
+							<div class="card-location">Luxemburg</div>
+							<div class="card-features">
+								<div class="card-features-item">
+									<img src="./icons/card/square.svg" />
+									<span>825 m²</span>
+								</div>
+								<div class="card-features-item">
+									<img src="./icons/card/box.svg" />
+									<span>4 Room</span>
+								</div>
+								<div class="card-features-item">
+									<img src="./icons/card/bed.svg" width="20" height="20" />
+									<span>2 Beds</span>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a class="card" href="./details.html">
+						<img src="./img/properties/5.jpg" alt="House" class="card-image" />
+						<div class="card-content">
+							<div class="card-price-wrapper">
+								<span class="card-price">$1,200/month</span><span class="card-type">Rent</span>
+							</div>
+							<div class="card-title">South district</div>
+							<div class="card-location">Carmiano</div>
+							<div class="card-features">
+								<div class="card-features-item">
+									<img src="./icons/card/square.svg" />
+									<span>64 m²</span>
+								</div>
+								<div class="card-features-item">
+									<img src="./icons/card/box.svg" />
+									<span>1 Room</span>
+								</div>
+								<div class="card-features-item">
+									<img src="./icons/card/bed.svg" width="20" height="20" />
+									<span>1 Bed</span>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a class="card" href="./details.html">
+						<img src="./img/properties/4.jpg" alt="House" class="card-image" />
+						<div class="card-content">
+							<div class="card-price-wrapper">
+								<span class="card-price">$2,000/month</span><span class="card-type">Rent</span>
+							</div>
+							<div class="card-title">Kassel House</div>
+							<div class="card-location">Stendal</div>
+							<div class="card-features">
+								<div class="card-features-item">
+									<img src="./icons/card/square.svg" />
+									<span>450 m²</span>
+								</div>
+								<div class="card-features-item">
+									<img src="./icons/card/box.svg" />
+									<span>7 Room</span>
+								</div>
+								<div class="card-features-item">
+									<img src="./icons/card/bed.svg" width="20" height="20" />
+									<span>3 Beds</span>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a class="card" href="./details.html">
+						<img src="./img/properties/6.jpg" alt="House" class="card-image" />
+						<div class="card-content">
+							<div class="card-price-wrapper">
+								<span class="card-price">$2,300/month</span><span class="card-type">Rent</span>
+							</div>
+							<div class="card-title">Central Park</div>
+							<div class="card-location">La Guardia</div>
+							<div class="card-features">
+								<div class="card-features-item">
+									<img src="./icons/card/square.svg" />
+									<span>120 m²</span>
+								</div>
+								<div class="card-features-item">
+									<img src="./icons/card/box.svg" />
+									<span>4 Room</span>
+								</div>
+								<div class="card-features-item">
+									<img src="./icons/card/bed.svg" width="20" height="20" />
+									<span>2 Beds</span>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a class="button properties__button" href="./listings.html">
+						View all properties
+					</a>
+				</div>
+			</div>
+		</section>
+		<section id="benefits" class="benefits">
+			<div class="container">
+				<h2 class="title benefits__title">Why choose us</h2>
+				<div class="benefits__grid">
+					<div class="benefits__card">
+						<img src="./icons/benefits/BriefcaseOutline.svg" alt="icon">
+						<div class="benefits__card-content">
+							<div class="title title_fs22 benefits__card-title">
+								Local Expertise
+							</div>
+							<p class="text benefits__card-description">
+								Our team has an in-depth understanding of the local market,
+								giving you an edge in negotiations and property valuation
+							</p>
+						</div>
+					</div>
+					<div class="benefits__card">
+						<img src="./icons/benefits/EmojiHappyOutline.svg" alt="icon">
+						<div class="benefits__card-content">
+							<div class="title title_fs22 benefits__card-title">
+								Personalized Service
+							</div>
+							<p class="text benefits__card-description">
+								We take the time to understand your unique needs and
+								preferences, tailoring our services to match your goals
+							</p>
+						</div>
+					</div>
+					<div class="benefits__card">
+						<img src="./icons/benefits/shield.svg" alt="icon">
+						<div class="benefits__card-content">
+							<div class="title title_fs22 benefits__card-title">
+								Integrity
+							</div>
+							<p class="text benefits__card-description">
+								Honesty, transparency, and integrity are at the core of our
+								business values. We prioritize your best interests in every
+								transaction
+							</p>
+						</div>
+					</div>
+					<div class="benefits__card">
+						<img src="./icons/benefits/LightBulbOutline.svg" alt="icon">
+						<div class="benefits__card-content">
+							<div class="title title_fs22 benefits__card-title">
+								Innovation
+							</div>
+							<p class="text benefits__card-description">
+								We leverage the latest technology and market trends to provide
+								you with a competitive advantage
+							</p>
+						</div>
+					</div>
+					<div class="benefits__card">
+						<img src="./icons/benefits/UserGroupOutline.svg" alt="icon">
+						<div class="benefits__card-content">
+							<div class="title title_fs22 benefits__card-title">
+								Community Commitment
+							</div>
+							<p class="text benefits__card-description">
+								We are proud to be a part of the community we serve, and we
+								actively engage in initiatives to give back and make a
+								positive impact
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="contactUs" class="contact">
+			<div class="container">
+				<h3 class="title title_fs20">Have any questions?</h3>
+				<h2 class="title contact__title">Contact us</h2>
+				<div class="contact__wrapper">
+					<div class="contact__content">
+						<p class="text">
+							Leave your details and our specialist will contact you as soon
+							as possible
+						</p>
+						<form class="contact__form">
+							<input type="text" class="input" placeholder="Name" autocomplete="username">
+							<input type="text" class="input" placeholder="Phone number">
+							<textarea class="input" rows="7" placeholder="Message"></textarea>
+							<button class="button">Submit</button>
+						</form>
+					</div>
+					<div class="contact__image">
+						<img src="./img/contact/agent.jpeg" alt="agent">
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__wrapper">
+				<div>
+					<div class="footer__logo">
+						<img src="./img/shared/logo-white.png" width="158" height="36" alt="megalul">
+					</div>
+					<div class="text footer__copyright">
+						<div>© Megalul 2023. All rights reserved.</div>
+						<div>Developed by Ivasiuk V.</div>
+					</div>
+				</div>
+				<div class="footer__links">
+					<div class="footer__links-title">Links</div>
+					<ul class="footer__links-list">
+						<li><a href="./index.html#home">Home</a></li>
 						<li><a href="./index.html#benefits">About</a></li>
 						<li><a href="./listings.html">Listings</a></li>
-						<li>
-							<a class="button button_small" href="./index.html#contactUs"
-								>Contact us</a
-							>
-						</li>
+						<li><a href="#">Garanties</a></li>
+						<li><a href="#">FAQ</a></li>
 					</ul>
-				</nav>
-			</div>
-		</header>
-		<main>
-			<section id="home" class="home">
-				<div class="container">
-					<div class="home__wrapper">
-						<div class="home__content">
-							<h1 class="title title_fs60 home__title">
-								Your Journey to Homeownership Starts Here
-							</h1>
-							<p class="text home__text">
-								Be first to get the best real estate deals before they hit the
-								mass market! Hot foreclosure dealt with one simple search!
-							</p>
-							<a class="button home__button" href="./listings.html">
-								<img src="./icons/search-icon.svg" alt="search" />Start your
-								search here</a
-							>
-						</div>
-						<div class="home__image">
-							<img src="./img/home.png" alt="house" />
-						</div>
-					</div>
 				</div>
-			</section>
-			<section class="discover">
-				<div class="container">
-					<div class="discover__wrapper">
-						<h3 class="title title_fs20 title_light">We can help you</h3>
-						<h2 class="title title_light discover__title">
-							Discover your perfect space
-						</h2>
-						<div class="discover__content">
-							<div class="discover__card">
-								<div class="discover__card-content">
-									<div class="title title_fs22 discover__card-title">
-										Residential
-									</div>
-									<p class="discover__card-description">
-										Houses in quiet neighborhood near the cities.
-									</p>
-								</div>
-								<div class="discover__card-img">
-									<img src="./img/discover/card1.png" alt="house" />
-								</div>
-							</div>
-							<div class="discover__card">
-								<div class="discover__card-content">
-									<div class="title title_fs22 discover__card-title">
-										Apartment
-									</div>
-									<p class="discover__card-description">
-										Apartments in the best points of metropolises.
-									</p>
-								</div>
-								<div class="discover__card-img">
-									<img src="./img/discover/card2.png" alt="house" />
-								</div>
-							</div>
-							<div class="discover__card">
-								<div class="discover__card-content">
-									<div class="title title_fs22 discover__card-title">
-										Workplace
-									</div>
-									<p class="text">
-										The best offices in the business centers of the largest
-										cities.
-									</p>
-								</div>
-								<div class="discover__card-img">
-									<img src="./img/discover/card3.png" alt="house" />
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="offer">
-				<div class="offer__wrapper">
-					<h2 class="title">What we offer</h2>
-					<p class="text offer__subtitle">
-						Everything you need when you want to buy or sell
-					</p>
-					<div class="offer__content">
-						<div class="offer__item">
-							<img
-								class="offer_item-icon"
-								src="./icons/offer/buying-icon.svg"
-								alt="buying"
-							/>
-							<div class="offer_item-text">Buying</div>
-						</div>
-						<div class="offer__item">
-							<img
-								class="offer_item-icon"
-								src="./icons/offer/key.svg"
-								alt="renting"
-							/>
-							<div class="offer_item-text">Renting</div>
-						</div>
-						<div class="offer__item">
-							<img
-								class="offer_item-icon"
-								src="./icons/offer/dollar.svg"
-								alt="selling"
-							/>
-							<div class="offer_item-text">Selling</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section id="properties" class="properties">
-				<div class="container">
-					<h3 class="title title_fs20">Best deals</h3>
-					<h2 class="title properties__title">Popular property deals</h2>
-					<div class="properties__grid">
-						<a class="card" href="./details.html">
-							<img
-								src="./img/properties/property.png"
-								alt="House"
-								class="card-image"
-							/>
-							<div class="card-content">
-								<div class="card-price-wrapper">
-									<span class="card-price">$3,600</span
-									><span class="card-type">Sale</span>
-								</div>
-								<div class="card-title">Premier Tower</div>
-								<div class="card-location">New york</div>
-								<div class="card-features">
-									<div class="card-features-item">
-										<img src="./icons/card/square.svg" alt="square" />
-										<span>91 Sqrt</span>
-									</div>
-									<div class="card-features-item">
-										<img src="./icons/card/box.svg" alt="box" />
-										<span>3 Room</span>
-									</div>
-									<div class="card-features-item">
-										<img
-											src="./icons/card/bed.svg"
-											width="20"
-											height="20"
-											alt="bed"
-										/>
-										<span>2 Beds</span>
-									</div>
-								</div>
-							</div>
-						</a>
-						<a class="card" href="./details.html">
-							<img
-								src="./img/properties/property.png"
-								alt="House"
-								class="card-image"
-							/>
-							<div class="card-content">
-								<div class="card-price-wrapper">
-									<span class="card-price">$3,600</span
-									><span class="card-type">Sale</span>
-								</div>
-								<div class="card-title">Premier Tower</div>
-								<div class="card-location">New york</div>
-								<div class="card-features">
-									<div class="card-features-item">
-										<img src="./icons/card/square.svg" alt="square" />
-										<span>91 Sqrt</span>
-									</div>
-									<div class="card-features-item">
-										<img src="./icons/card/box.svg" alt="box" />
-										<span>3 Room</span>
-									</div>
-									<div class="card-features-item">
-										<img
-											src="./icons/card/bed.svg"
-											width="20"
-											height="20"
-											alt="bed"
-										/>
-										<span>2 Beds</span>
-									</div>
-								</div>
-							</div>
-						</a>
-						<a class="card" href="./details.html">
-							<img
-								src="./img/properties/property.png"
-								alt="House"
-								class="card-image"
-							/>
-							<div class="card-content">
-								<div class="card-price-wrapper">
-									<span class="card-price">$3,600</span
-									><span class="card-type">Sale</span>
-								</div>
-								<div class="card-title">Premier Tower</div>
-								<div class="card-location">New york</div>
-								<div class="card-features">
-									<div class="card-features-item">
-										<img src="./icons/card/square.svg" alt="square" />
-										<span>91 Sqrt</span>
-									</div>
-									<div class="card-features-item">
-										<img src="./icons/card/box.svg" alt="box" />
-										<span>3 Room</span>
-									</div>
-									<div class="card-features-item">
-										<img
-											src="./icons/card/bed.svg"
-											width="20"
-											height="20"
-											alt="bed"
-										/>
-										<span>2 Beds</span>
-									</div>
-								</div>
-							</div>
-						</a>
-						<a class="card" href="./details.html">
-							<img
-								src="./img/properties/property.png"
-								alt="House"
-								class="card-image"
-							/>
-							<div class="card-content">
-								<div class="card-price-wrapper">
-									<span class="card-price">$3,600</span
-									><span class="card-type">Sale</span>
-								</div>
-								<div class="card-title">Premier Tower</div>
-								<div class="card-location">New york</div>
-								<div class="card-features">
-									<div class="card-features-item">
-										<img src="./icons/card/square.svg" alt="square" />
-										<span>91 Sqrt</span>
-									</div>
-									<div class="card-features-item">
-										<img src="./icons/card/box.svg" alt="box" />
-										<span>3 Room</span>
-									</div>
-									<div class="card-features-item">
-										<img
-											src="./icons/card/bed.svg"
-											width="20"
-											height="20"
-											alt="bed"
-										/>
-										<span>2 Beds</span>
-									</div>
-								</div>
-							</div>
-						</a>
-						<a class="card" href="./details.html">
-							<img
-								src="./img/properties/property.png"
-								alt="House"
-								class="card-image"
-							/>
-							<div class="card-content">
-								<div class="card-price-wrapper">
-									<span class="card-price">$3,600</span
-									><span class="card-type">Sale</span>
-								</div>
-								<div class="card-title">Premier Tower</div>
-								<div class="card-location">New york</div>
-								<div class="card-features">
-									<div class="card-features-item">
-										<img src="./icons/card/square.svg" alt="square" />
-										<span>91 Sqrt</span>
-									</div>
-									<div class="card-features-item">
-										<img src="./icons/card/box.svg" alt="box" />
-										<span>3 Room</span>
-									</div>
-									<div class="card-features-item">
-										<img
-											src="./icons/card/bed.svg"
-											width="20"
-											height="20"
-											alt="bed"
-										/>
-										<span>2 Beds</span>
-									</div>
-								</div>
-							</div>
-						</a>
-						<a class="card" href="./details.html">
-							<img
-								src="./img/properties/property.png"
-								alt="House"
-								class="card-image"
-							/>
-							<div class="card-content">
-								<div class="card-price-wrapper">
-									<span class="card-price">$3,600</span
-									><span class="card-type">Sale</span>
-								</div>
-								<div class="card-title">Premier Tower</div>
-								<div class="card-location">New york</div>
-								<div class="card-features">
-									<div class="card-features-item">
-										<img src="./icons/card/square.svg" alt="square" />
-										<span>91 Sqrt</span>
-									</div>
-									<div class="card-features-item">
-										<img src="./icons/card/box.svg" alt="box" />
-										<span>3 Room</span>
-									</div>
-									<div class="card-features-item">
-										<img
-											src="./icons/card/bed.svg"
-											width="20"
-											height="20"
-											alt="bed"
-										/>
-										<span>2 Beds</span>
-									</div>
-								</div>
-							</div>
-						</a>
-						<button class="button properties__button">
-							View all properties
-						</button>
-					</div>
-				</div>
-			</section>
-			<section id="benefits" class="benefits">
-				<div class="container">
-					<h2 class="title benefits__title">Why choose us</h2>
-					<div class="benefits__grid">
-						<div class="benefits__card">
-							<img src="./icons/benefits/BriefcaseOutline.svg" alt="icon" />
-							<div class="benefits__card-content">
-								<div class="title title_fs22 benefits__card-title">
-									Local Expertise
-								</div>
-								<p class="text benefits__card-description">
-									Our team has an in-depth understanding of the local market,
-									giving you an edge in negotiations and property valuation
-								</p>
-							</div>
-						</div>
-						<div class="benefits__card">
-							<img src="./icons/benefits/EmojiHappyOutline.svg" alt="icon" />
-							<div class="benefits__card-content">
-								<div class="title title_fs22 benefits__card-title">
-									Personalized Service
-								</div>
-								<p class="text benefits__card-description">
-									We take the time to understand your unique needs and
-									preferences, tailoring our services to match your goals
-								</p>
-							</div>
-						</div>
-						<div class="benefits__card">
-							<img src="./icons/benefits/shield.svg" alt="icon" />
-							<div class="benefits__card-content">
-								<div class="title title_fs22 benefits__card-title">
-									Integrity
-								</div>
-								<p class="text benefits__card-description">
-									Honesty, transparency, and integrity are at the core of our
-									business values. We prioritize your best interests in every
-									transaction
-								</p>
-							</div>
-						</div>
-						<div class="benefits__card">
-							<img src="./icons/benefits/LightBulbOutline.svg" alt="icon" />
-							<div class="benefits__card-content">
-								<div class="title title_fs22 benefits__card-title">
-									Innovation
-								</div>
-								<p class="text benefits__card-description">
-									We leverage the latest technology and market trends to provide
-									you with a competitive advantage
-								</p>
-							</div>
-						</div>
-						<div class="benefits__card">
-							<img src="./icons/benefits/UserGroupOutline.svg" alt="icon" />
-							<div class="benefits__card-content">
-								<div class="title title_fs22 benefits__card-title">
-									Community Commitment
-								</div>
-								<p class="text benefits__card-description">
-									We are proud to be a part of the community we serve, and we
-									actively engage in initiatives to give back and make a
-									positive impact
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section id="contactUs" class="contact">
-				<div class="container">
-					<h3 class="title title_fs20">Have any questions?</h3>
-					<h2 class="title contact__title">Contact us</h2>
-					<div class="contact__wrapper">
-						<div class="contact__content">
-							<p class="text">
-								Leave your details and our specialist will contact you as soon
-								as possible
-							</p>
-							<form class="contact__form">
-								<input
-									type="text"
-									class="input"
-									placeholder="Name"
-									autocomplete="username"
-								/>
-								<input type="text" class="input" placeholder="Phone number" />
-								<textarea
-									class="input"
-									rows="7"
-									placeholder="Message"
-								></textarea>
-								<button class="button">Submit</button>
-							</form>
-						</div>
-						<div class="contact__image">
-							<img src="./img/contact/agent.png" alt="agent" />
-						</div>
-					</div>
-				</div>
-			</section>
-		</main>
-		<footer class="footer">
-			<div class="container">
-				<div class="footer__wrapper">
-					<div>
-						<div class="footer__logo">
-							<img
-								src="./img/shared/logo-white.png"
-								width="158"
-								height="36"
-								alt="megalul"
-							/>
-						</div>
-						<div class="text footer__copyright">
-							<div>© Megalul 2023. All rights reserved.</div>
-							<div>Developed by Ivasiuk V.</div>
-						</div>
-					</div>
-					<div class="footer__links">
-						<div class="footer__links-title">Links</div>
-						<ul class="footer__links-list">
-							<li><a href="./index.html#home">Home</a></li>
-							<li><a href="./index.html#benefits">About</a></li>
-							<li><a href="./listings.html">Listings</a></li>
-							<li><a href="#">Garanties</a></li>
-							<li><a href="#">FAQ</a></li>
-						</ul>
-					</div>
-					<div class="footer__contacts">
-						<div class="footer__section-title">Contact us</div>
-						<div class="footer__contacts-phone">+38 044 242 34 72</div>
-						<div>megalul@gmail.com</div>
-					</div>
+				<div class="footer__contacts">
+					<div class="footer__section-title">Contact us</div>
+					<div class="footer__contacts-phone">+38 044 242 34 72</div>
+					<div>megalul@gmail.com</div>
 				</div>
 			</div>
-		</footer>
-	</body>
+		</div>
+	</footer>
+</body>
+
 </html>

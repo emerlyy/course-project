@@ -201,6 +201,7 @@ select {
 	align-items: center;
 	justify-content: center;
 }
+
 .discover__card-img img {
 	width: 100%;
 	height: 100%;
@@ -542,6 +543,7 @@ select {
 	.card-image {
 		display: block;
 		width: 100%;
+		aspect-ratio: 3/2;
 		min-height: 180px;
 		max-height: 260px;
 		object-fit: cover;
@@ -583,8 +585,8 @@ select {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		font-size: 12px;
-		font-weight: 700;
+		font-size: 14px;
+		font-weight: 600;
 		color: var(--primary-color);
 	}
 
@@ -610,6 +612,9 @@ select {
 }
 
 .details__location {
+	display: flex;
+	align-items: center;
+	gap: 6px;
 	font-size: 22px;
 	font-weight: 400;
 }
