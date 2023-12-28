@@ -14,9 +14,7 @@ body {
 
 select {
 	appearance: none;
-	/* safari */
 	-webkit-appearance: none;
-	/* other styles for aesthetics */
 	width: 100%;
 	font-size: 14px;
 	background-color: #fff;
@@ -35,6 +33,12 @@ select {
 .container {
 	max-width: 1580px;
 	margin: 0 auto;
+}
+
+.link {
+	&:hover {
+		text-decoration: underline;
+	}
 }
 
 .header {
